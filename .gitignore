@@ -18,7 +18,27 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/bootstrap/cache/
 /vendor
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Database files
+*.sqlite
+*.sqlite3
+database.sqlite
+task_manager_db
+
+# Testing
+.phpunit.xml
+
+# OS specific
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
